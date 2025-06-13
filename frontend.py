@@ -5,7 +5,7 @@
 # app = Flask(__name__)
 #
 # # Initialize Groq Client
-# api_key = "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"
+# api_key = "Your_api_key"
 #
 #
 # def initialize_groq_client(api_key):
