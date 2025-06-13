@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AI Risk Page Scanner",
+  "version": "1.0",
+  "description": "Scans the current page for risk using AI backend.",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
