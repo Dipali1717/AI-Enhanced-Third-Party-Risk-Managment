@@ -1,6 +1,6 @@
 from groq import Groq
 
-api_key="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"
+api_key="your_api_key"
 
 def initialize_groq_client(api_key):
     try:
