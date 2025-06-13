@@ -9,7 +9,6 @@ This project helps detect risky vendors using AI, NLP, and real-time threat anal
 - Analyze **sentiment** and **emotions** using NLP
 - Use **Groq LLM API** for intelligent risk classification
 - **Chrome Extension** for real-time webpage analysis
-- Custom **risk scoring system** (0–100 scale)
 
 ---
 
